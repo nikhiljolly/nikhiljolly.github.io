@@ -1,0 +1,24 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-inverse .navbar-brand{
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 80px;
+	height: 80px;
+	color:#fff;
+	padding-top: 0;
+}
+
+.navbar-toggle{
+	height: 64px;
+}
+
+.navbar-nav li a{
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 80px;
+	height: 80px;
+	padding-top: 0;
+}
