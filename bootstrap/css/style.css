@@ -1,3 +1,8 @@
+/*For the footer*/
+html {
+  position: relative;
+  min-height: 100%;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 80px;
