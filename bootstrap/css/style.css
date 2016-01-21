@@ -48,3 +48,11 @@ body{
 	text-align: center;
 	font-size: 22px;
 }
+
+.footer a{
+	color: #333;
+}
+
+.footer a:hover{
+	color: #111;
+}
