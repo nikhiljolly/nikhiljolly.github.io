@@ -286,7 +286,7 @@ ul.nop {
 	font-family: 'Playfair Display', serif;
 	margin-top: 0;
 	font-weight: 500;
-	text-align: right;
+	text-align: center;
 	font-size: 45px;
 	line-height: 55px;
 }
@@ -343,7 +343,7 @@ ul.nop {
 /*------------------------------------------------
 	05. Section Portfolio
 ---------------------------------------------------*/
-#page-folio {
+#portfolio {
 	padding: 100px 0;
 	background: #222;
 }
@@ -557,42 +557,22 @@ ul.nop {
 	padding: 100px 0;
 	background: #111;
 }
-.contact-left {
-	text-align: right;
+#page-contact .container{
+	max-width: 900px;
 }
-.contact-left h3 {
+.contact-form h3 {
 	font-family: 'Playfair Display', serif;
 	margin-top: 0;
 	font-weight: 500;
 	font-size: 45px;
-	line-height: 55px;
-}
-.contact-info h6 {
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 600;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	color: #777;
-}
-.contact-info {
-	padding-top: 5px;
-}
-.contact-info p {
-	padding-top: 5px;
-	line-height: 25px;
-	color: #eee;
-}
-.contact-right {
-	padding-top: 10px;
-	padding-left: 45px;
+	text-align: center;
 }
 
 /*Contact form*/
 
 input, textarea, select {
 	position: relative;
-    color: #444;
+    color: #fff;
 	vertical-align: top;
 	margin: 0;
 	padding: 10px;
@@ -786,10 +766,6 @@ ul.error-messages li {
 	.item33 {
 		width: 50%;
 	}
-	h3.big-title {
-		text-align: left;
-		padding-left: 30px;
-	}
 	.filters li {
 		display: block;
 		margin: 15px 0;
@@ -797,14 +773,18 @@ ul.error-messages li {
 	.col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8 {
 		margin: 20px 0;
 	}
-	.contact-left {
-		text-align: left;
+	.contact-form .col-md-4{
+		margin: 0;
 	}
-	.contact-info {
-		padding-left: 30px;
+	.about-info{
+		padding-bottom: 0px;
 	}
-	.contact-right {
-		padding: 0 45px;
+	.resume-left h3{
+		text-align: center;
+	}
+	.resume-skills{
+		text-align: center;
+		margin-right: 30px;
 	}
 
 }
