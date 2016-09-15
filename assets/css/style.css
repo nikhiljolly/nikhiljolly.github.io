@@ -20,13 +20,31 @@
 	00. Body, links, hgroup, paragraphs, general styles
 ---------------------------------------------------*/
 
+html{
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background: #151515;
+	background: transparent; /* Used for parallax image */
 	font-family: 'Poppins', sans-serif;
 	color: #eee;
 	margin: 0;
 	padding: 0;
+}
 
+/* Amazing parallax hack */
+body:after{
+	content:"";
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	display:block;
+	background: url(../images/bg.jpg) no-repeat 50% 100%;
+	background-size:cover;
 }
 
 a {
@@ -152,7 +170,7 @@ ul.nop {
 	left: 50px;
 	background: #0a0a0a;
 	padding: 20px 25px;
-	max-width: 250px;
+	max-width: 180px;
 }
 .menu-icon {
 	width: 25px;
@@ -182,7 +200,6 @@ ul.nop {
 }
 .logotext {
 	float: left;
-	clear: both;
 }
 .logotext h6{
 	text-transform: uppercase;
@@ -230,13 +247,8 @@ ul.nop {
 
 .main-intro {
 	text-align: center;
-	background: #fff url(../images/bg.jpg);
-	background-position: bottom;
-  background-size: cover;
   height: 100vh;
-	background-attachment: fixed;
 }
-
 
 .main-content {
 
