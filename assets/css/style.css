@@ -231,7 +231,7 @@ ul.nop {
 .main-intro {
 	text-align: center;
 	background: #fff url(../images/bg.jpg);
-	background-position: 90% 90%;
+	background-position: bottom;
   background-size: cover;
   height: 100vh;
 	background-attachment: fixed;
@@ -264,6 +264,7 @@ ul.nop {
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 400;
+	padding-bottom: 50px;
 }
 
 /*------------------------------------------------
@@ -498,7 +499,7 @@ ul.nop {
 #island-modal{
 	max-width: 800px;
 }
-#reflections-modal{
+#mirrors-modal{
 	max-width: 625px;
 }
 #crazyjumper-modal{
