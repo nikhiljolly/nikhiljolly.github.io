@@ -132,10 +132,10 @@ ul.nop {
 
 }
 .about-icons .icon:hover {
-  -webkit-animation-name: jello;  
-  -webkit-animation-iteration-count: 1;  
+  -webkit-animation-name: jello;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
-  -webkit-animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
 }
 .icon-above-title {
 	font-size: 40px;
@@ -156,34 +156,32 @@ ul.nop {
 }
 .menu-icon {
 	width: 25px;
-    height: 25px;
-    cursor: pointer;
-    position: relative;
-    float: left;
-    width: 20%;
-    padding-left: 0px;
-    padding-top: 1px;
-  	-webkit-transition: all .25s ease-in-out;
-  	transition: all .25s ease-in-out;
+  height: 25px;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  margin-left: 10px;
+  padding-top: 1px;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 .menu-icon-clicked {
-    -webkit-transform: rotate(90deg); /* Safari and Chrome */
-    -moz-transform: rotate(90deg);   /* Firefox */
-    -ms-transform: rotate(90deg);   /* IE 9 */
-    -o-transform: rotate(90deg);   /* Opera */
-    transform: rotate(90deg);
+  -webkit-transform: rotate(90deg); /* Safari and Chrome */
+  -moz-transform: rotate(90deg);   /* Firefox */
+  -ms-transform: rotate(90deg);   /* IE 9 */
+  -o-transform: rotate(90deg);   /* Opera */
+  transform: rotate(90deg);
 }
 .menu-bar {
-    width: 25px;
-    height: 2px;
-    background: #ddd;
-    margin-bottom: 7px;
-    position: relative;
-    right: 0;
+  width: 25px;
+  height: 2px;
+  background: #ddd;
+  margin-bottom: 7px;
+  position: relative;
+  right: 0;
 }
 .logotext {
 	float: left;
-	width: 80%;
 	clear: both;
 }
 .logotext h6{
@@ -234,14 +232,26 @@ ul.nop {
 	text-align: center;
 	background: #fff url(../images/bg.jpg);
 	background-position: 90% 90%;
-    background-size: cover;
-    height: 100vh;
+  background-size: cover;
+  height: 100vh;
+	background-attachment: fixed;
 }
 
 
 .main-content {
-	padding-top: 10%;
+
+	/* For vertical aligning the header text to middle */
+	height: 100%;
+	width: 100%;
+	display: table;
+
 	text-align: center;
+}
+
+.main-content .container{
+	/* For vertical aligning the header text to middle */
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .main-content h1 {
@@ -593,7 +603,7 @@ input, textarea, select {
      -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;  
+    transition: all .2s ease-in-out;
 }
 input:focus, textarea:focus, select:focus {
 	outline: none;
@@ -754,7 +764,7 @@ ul.error-messages li {
   	opacity: 0.6;
   	position: absolute;
   	top: 0;
-  	left: 0; 
+  	left: 0;
   	-webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   	animation: sk-bounce 2.0s infinite ease-in-out;
 }
@@ -800,9 +810,6 @@ ul.error-messages li {
 @media screen and (max-width: 480px) {
 	.item33 {
 		width: 100%;
-	}
-	.main-content {
-		padding-top: 25%;
 	}
 	.main-content h1 {
 	    font-size: 75px;
