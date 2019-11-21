@@ -7,7 +7,7 @@ body{
 }
 .navbar-brand{
   font-size: 2rem;
-  margin-right: 0.5rem;
+  text-align: center;
 }
 .nav-item{
   font-size: 1rem;
@@ -98,6 +98,7 @@ body{
 }
 .post .title{
   padding-bottom: 1rem;
+  text-align: center;
 }
 .post .btn{
   margin-top: 1rem;
@@ -109,6 +110,10 @@ body{
 }
 .post-carousel{
   text-align: center;
+}
+.post-gallery div[class^="col"]{
+  padding: 0.5rem;
+  position: relative;
 }
 
 /* Footer */

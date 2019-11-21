@@ -19,10 +19,13 @@
   <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light fadeIn" id="myNavbar">
+    <nav class="navbar navbar-expand-md navbar-light flex-column fadeIn" id="myNavbar">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="">Nikhil Jolly</a>
+      <a class="navbar-brand mx-auto" href="">
+        <img src="nikhiljolly_logo.png" width="220" alt="">
+        <br>Nikhil Jolly
+      </a>
 
       <!-- Toggler -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -33,29 +36,79 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav ml-auto nav-pills nav-fill" id="pills-tab">
           <li class="nav-item">
-            <a class="nav-link active" id="personal-tab" href="">personal</a>
+            <a class="nav-link active" id="worknew-tab" href="">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="work-tab" href="work/">work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="about-tab" href="about/">about</a>
+            <a class="nav-link" id="about-tab" href="about/">About</a>
           </li>
         </ul>
       </div>
 
     </nav>
-    
+
     <hr>
 
     <!-- Personal -->
-    <div class="container-fluid fadeIn portfolio">
+    <div class="container fadeIn portfolio">
 
       <div class="row">
+
+        <!-- Summer of Joy -->
+        <div class="col-md-12">
+          <img src="work/summerofjoy/cover.gif" class="img-fluid" alt="Summer of Joy">
+          <a href="work/summerofjoy/">
+            <div class="overlay">
+              <div class="text">
+                <h3>Summer of Joy</h3>
+                <h6>Designer | Hypernova</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Void Troopers -->
+        <div class="col-md-12">
+          <img src="work/voidtroopers/cover.png" class="img-fluid" alt="Void Troopers">
+          <a href="work/voidtroopers/">
+            <div class="overlay">
+              <div class="text">
+                <h3>Void Troopers</h3>
+                <h6>Designer & Programmer | Hypernova</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Mirrors -->
+        <div class="col-md-6">
+            <img src="work/mirrors/cover.png" class="img-fluid" alt="Mirrors">
+            <a href="work/mirrors/">
+              <div class="overlay">
+                <div class="text">
+                  <h3>Mirrors</h3>
+                  <h6>Designer & Programmer</h6>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Dead Dreams -->
+          <div class="col-md-6">
+            <img src="work/deaddreams/cover.png" class="img-fluid" alt="Dead Dreams">
+            <a href="work/deaddreams/">
+              <div class="overlay">
+                <div class="text">
+                  <h3>Dead Dreams</h3>
+                  <h6>Designer & Programmer | Game Jam</h6>
+                </div>
+              </div>
+            </a>
+          </div>
+
         <!-- tiny little boat -->
         <div class="col-md-9">
-          <img src="personal/tinylittleboat/cover.png" class="img-fluid" alt="tiny little boat">
-          <a href="personal/tinylittleboat/">
+          <img src="work/tinylittleboat/cover.png" class="img-fluid" alt="tiny little boat">
+          <a href="work/tinylittleboat/">
             <div class="overlay">
               <div class="text">
                 <h3>tiny little boat</h3>
@@ -64,11 +117,11 @@
             </div>
           </a>
         </div>
-        
+
         <!-- Domination -->
         <div class="col-md-3">
-          <img src="personal/domination/1.jpg" class="img-fluid" alt="Domination">
-          <a href="personal/domination/">
+          <img src="work/domination/1.jpg" class="img-fluid" alt="Domination">
+          <a href="work/domination/">
             <div class="overlay">
               <div class="text">
                 <h3>Domination</h3>
@@ -81,23 +134,24 @@
       </div>
 
       <div class="row">
-        <!-- Game of life -->
+
+        <!-- Chop Wood -->
         <div class="col-md-5">
-          <img src="personal/gameoflife/cover.png" class="img-fluid" alt="Game of Life">
-          <a href="personal/gameoflife/">
+          <img src="work/chopwood/cover.png" class="img-fluid" alt="Chop Wood">
+          <a href="work/chopwood/">
             <div class="overlay">
               <div class="text">
-                <h3>Game of Life</h3>
-                <h6>Solo | Open source</h6>
+                <h3>Chop Wood</h3>
+                <h6>Lead Developer | Sage Realities</h6>
               </div>
             </div>
           </a>
         </div>
-        
+
         <!-- Magnes -->
         <div class="col-md-7">
-          <img src="personal/magnes/cover.png" class="img-fluid" alt="Magnes">
-          <a href="personal/magnes/">
+          <img src="work/magnes/cover.png" class="img-fluid" alt="Magnes">
+          <a href="work/magnes/">
             <div class="overlay">
               <div class="text">
                 <h3>Magnes</h3>
@@ -111,14 +165,27 @@
 
       <div class="row last-row">
 
-        <!-- Dead Dreams -->
-        <div class="col-md-12">
-          <img src="personal/deaddreams/cover.png" class="img-fluid" alt="Dead Dreams">
-          <a href="personal/deaddreams/">
+        <!-- Pizza Craft -->
+        <div class="col-md-7">
+          <img src="work/pizzacraft/cover.png" class="img-fluid" alt="Pizza Craft">
+          <a href="work/pizzacraft/">
             <div class="overlay">
               <div class="text">
-                <h3>Dead Dreams</h3>
-                <h6>Game Designer/Developer | Game Jam</h6>
+                <h3>Pizza Craft</h3>
+                <h6>Game Developer | UltraMelon</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Game of life -->
+        <div class="col-md-5">
+          <img src="work/gameoflife/cover.png" class="img-fluid" alt="Game of Life">
+          <a href="work/gameoflife/">
+            <div class="overlay">
+              <div class="text">
+                <h3>Game of Life</h3>
+                <h6>Solo | Open source</h6>
               </div>
             </div>
           </a>
