@@ -1,6 +1,11 @@
 body{
   padding: 2rem 4vw 0 4vw;
 }
+
+hr{
+  border-top: 1px solid #eead47;
+}
+
 /* Navbar */
 #myNavbar{
   padding: 0;
